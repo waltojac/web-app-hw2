@@ -1,0 +1,60 @@
+body {
+  font: Times medium black;
+}
+
+table p {
+  font-size: small;
+}
+
+#photo1 {
+  float: right;
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 5%;
+  margin-bottom: auto;
+}
+
+#photo2 {
+  position: relative;
+  margin-left: 30%;
+}
+#par1 {
+
+}
+
+#mainTable {
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+}
+#mainTable td {
+  vertical-align: top;
+}
+
+#courseTable {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#courseTable td:nth-child(1) {
+  text-align: center;
+}
+
+#courseTable td:nth-child(3) {
+  text-align: center;
+}
+
+#courseTable tr:nth-child(even) {
+  background-color: grey;
+}
+#courseTable tr:nth-child(odd) {
+  background-color: lightblue;
+}
+
+.tableCell {
+  font-size: auto;
+}
+
+.best {
+  font-style: italic;
+}
